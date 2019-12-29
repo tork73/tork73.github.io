@@ -5,6 +5,6 @@
 
 
  * [aviser.txt](Data_behandling/aviser.txt)
- * [temparatur.txt](Data_behandling/temparatur.txt)
+ * [temperatur.txt](Data_behandling/temperatur.txt)
 
 
