@@ -2,6 +2,6 @@
 
 Her vil jeg legge ut filer til kurset. 
 
-Tester litt. 
+Tester litt. File [fil]:/aviser.txt
 
 
