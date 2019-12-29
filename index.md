@@ -1,7 +1,9 @@
-## MAT625 
+# MAT625 
 
-Her vil jeg legge ut filer til kurset. 
+## Filer til samling 4
 
-Tester litt. File [fil](Data_behandling/aviser.txt)
+
+
+ * [aviser.txt](Data_behandling/aviser.txt)
 
 
