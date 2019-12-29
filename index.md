@@ -2,4 +2,6 @@
 
 Her vil jeg legge ut filer til kurset. 
 
+Tester litt. 
+
 
