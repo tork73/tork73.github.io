@@ -4,9 +4,10 @@
 
 
 
- * [aviser.txt](Data_behandling/aviser.txt)
- * [terningkast.csv](Data_behandling/terningkast.csv)
- * [temperatur.txt](Data_behandling/temperatur.txt)
- * [gjennomsnitt-mnd.csv](Data_behandling/gjennomsnitt-mnd.csv)
+* [aviser.txt](Data_behandling/aviser.txt)
+* [terningkast.csv](Data_behandling/terningkast.csv)
+* [temperatur.txt](Data_behandling/temperatur.txt)
+* [gjennomsnitt-mnd.csv](Data_behandling/gjennomsnitt-mnd.csv)
+* [doedelighet.csv](Data_behandling/doedelighet.csv)
 
 
