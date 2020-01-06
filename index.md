@@ -4,7 +4,7 @@
 
 ### Filer til oppgaver:
 
-* [posijon.txt](Data_behandling/posisjon.txt)
+* [posisjon.txt](Data_behandling/posisjon.txt)
 
 ### Filer nevnt i kompendiet:
 * [aviser.txt](Data_behandling/aviser.txt)
