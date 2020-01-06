@@ -5,7 +5,7 @@
 ### Filer til oppgaver:
 
 * [posisjon.txt](Data_behandling/posisjon.txt)
-* [Karakterer.csv](Data_behandling/Karakterer.csv)
+* [karakterer.csv](Data_behandling/karakterer.csv)
 
 ### Filer nevnt i kompendiet:
 * [aviser.txt](Data_behandling/aviser.txt)
