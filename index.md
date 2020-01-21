@@ -10,6 +10,7 @@
 * [temp.csv](Data_behandling/temp.csv)
 * [CO2.csv](Data_behandling/CO2.csv)
 * [run.csv](Data_behandling/run.csv)
+* [TitanicSurvival.csv](https://vincentarelbundock.github.io/Rdatasets/csv/carData/TitanicSurvival.csv) Innholder liste over passasjerer på Titanic.
 
 ### Filer nevnt i kompendiet:
 * [aviser.txt](Data_behandling/aviser.txt)
