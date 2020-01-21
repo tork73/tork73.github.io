@@ -8,6 +8,7 @@
 * [karakterer.csv](Data_behandling/karakterer.csv)
 * [fra-studalen.csv](Data_behandling/fra-studalen.csv) (Antall passeringer) Se [vegvesent](https://www.vegvesen.no/trafikkdata/start/om-trafikkdata#om-eksport) for forklaring på innholdet i filen.
 * [temp.csv](Data_behandling/temp.csv)
+* [CO2.csv](Data_behandling/CO2.csv)
 
 ### Filer nevnt i kompendiet:
 * [aviser.txt](Data_behandling/aviser.txt)
