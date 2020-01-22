@@ -8,6 +8,7 @@
 * [vekt.txt](Data_Data_behandling/vekt.txt)
 * [posisjon.txt](Data_behandling/posisjon.txt)
 * [karakterer.csv](Data_behandling/karakterer.csv)
+* [austa.csv](https://vincentarelbundock.github.io/Rdatasets/csv/fpp2/austa.csv)
 * [fra-studalen.csv](Data_behandling/fra-studalen.csv) (Antall passeringer) Se [vegvesent](https://www.vegvesen.no/trafikkdata/start/om-trafikkdata#om-eksport) for forklaring på innholdet i filen.
 * [temp.csv](Data_behandling/temp.csv)
 * [CO2.csv](Data_behandling/CO2.csv)
