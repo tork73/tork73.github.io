@@ -12,7 +12,7 @@
 * [CO2.csv](Data_behandling/CO2.csv)
 * [run.csv](Data_behandling/run.csv)
 * [TitanicSurvival.csv](https://vincentarelbundock.github.io/Rdatasets/csv/carData/TitanicSurvival.csv) Innholder liste over passasjerer på Titanic.
-* [Nile.csv](https://vincentarelbundock.github.io/Rdatasets/csv/datasets/Nile.csv) Inneholder data over hvor mye vann som strømmer gjennom Nilen ved Aswan (målt i \(10^8 m^3\)). 
+* [Nile.csv](https://vincentarelbundock.github.io/Rdatasets/csv/datasets/Nile.csv) Inneholder data over hvor mye vann som strømmer gjennom Nilen ved Aswan (målt i \(10^8 m^3\)) per år for årene mellom 1871 og 1970. 
 
 ### Filer nevnt i kompendiet:
 * [aviser.txt](Data_behandling/aviser.txt)
