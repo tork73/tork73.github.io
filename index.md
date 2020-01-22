@@ -1,3 +1,8 @@
+<script type="text/javascript" async
+src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js? 
+config=TeX-MML-AM_CHTML"
+</script>
+
 # MAT625 
 
 ## Filer til samling 4
@@ -11,6 +16,7 @@
 * [CO2.csv](Data_behandling/CO2.csv)
 * [run.csv](Data_behandling/run.csv)
 * [TitanicSurvival.csv](https://vincentarelbundock.github.io/Rdatasets/csv/carData/TitanicSurvival.csv) Innholder liste over passasjerer på Titanic.
+* [Nile.csv](https://vincentarelbundock.github.io/Rdatasets/csv/datasets/Nile.csv) Inneholder data over hvor mye vann som strømmer gjennom Nilen ved Aswan (målt i 10^8 m^3) 
 
 ### Filer nevnt i kompendiet:
 * [aviser.txt](Data_behandling/aviser.txt)
