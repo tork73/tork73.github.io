@@ -5,7 +5,7 @@
 
 ### Filer til oppgaver:
 
-* [vekt.txt](Data_Data_behandling/vekt.txt)
+* [vekt.txt](Data_behandling/vekt.txt)
 * [posisjon.txt](Data_behandling/posisjon.txt)
 * [karakterer.csv](Data_behandling/karakterer.csv)
 * [austa.csv](https://vincentarelbundock.github.io/Rdatasets/csv/fpp2/austa.csv)
