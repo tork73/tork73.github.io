@@ -1,6 +1,8 @@
 
 # MAT625 
 
+[kod med trincket](program.html)
+
 ## Filer til samling 4
 
 ### Filer til oppgaver:
