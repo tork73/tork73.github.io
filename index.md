@@ -7,7 +7,7 @@
 
 * [oldfaithful.csv](Data_behandling/faithful.csv) (eruption er varigheten til hvert utbrudd)
 * [Artikkelen til Shaughnessy og Pfannkuch](http://www.web.pdx.edu/~jfreder/M212/oldfaithful.pdf)
-
+* [2019.csv](Data_behandling/2019.csv) 
 
 ## Filer til samling 4
 
