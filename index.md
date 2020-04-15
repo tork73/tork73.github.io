@@ -6,7 +6,9 @@
 ## Filer til samling 6
 
 * [oldfaithful.csv](Data_behandling/faithful.csv) (eruption er varigheten til hvert utbrudd)
-* [http://www.web.pdx.edu/~jfreder/M212/oldfaithful.pdf](Artikklen til Shaughnessy og Pfannkuch)
+* [Artikkelen til Shaughnessy og Pfannkuch](http://www.web.pdx.edu/~jfreder/M212/oldfaithful.pdf)
+
+
 ## Filer til samling 4
 
 ### Filer til oppgaver:
