@@ -5,7 +5,7 @@
 
 ## Filer til samling 6
 
-* [oldfaithful.csv](Data_behandling/faithful.csv)
+* [oldfaithful.csv](Data_behandling/faithful.csv) (eruption er varigheten til hvert utbrudd)
 
 ## Filer til samling 4
 
