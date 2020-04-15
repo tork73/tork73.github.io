@@ -5,7 +5,7 @@
 
 ## Filer til samling 6
 
-* [oldfaithful.csv](Data_behandling/oldfaithful.csv)
+* [oldfaithful.csv](Data_behandling/faithful.csv)
 
 ## Filer til samling 4
 
