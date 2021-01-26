@@ -9,6 +9,8 @@
 ### Filer til oppgaver:
 
 * [vekt.txt](Data_behandling/vekt.txt)
+* [2017luft.txt](Data_behandling/2017luft.txt)
+* [2018luft.txt](Data_behandling/2018luft.txt)
 * [posisjon.txt](Data_behandling/posisjon.txt)
 * [karakterer.csv](Data_behandling/karakterer.csv)
 * [austa.csv](https://vincentarelbundock.github.io/Rdatasets/csv/fpp2/austa.csv)
