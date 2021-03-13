@@ -39,3 +39,4 @@
 * [StudentsPerformance.csv](Data_behandling/StudentsPerformance.csv)
 * [insurance.csv](https://raw.githubusercontent.com/stedy/Machine-Learning-with-R-datasets/master/insurance.csv)
 * [ToothGrowth.csv](https://vincentarelbundock.github.io/Rdatasets/csv/datasets/ToothGrowth.csv)
+* [chickwts.csv](https://vincentarelbundock.github.io/Rdatasets/csv/datasets/chickwts.csv)
