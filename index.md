@@ -28,7 +28,7 @@
 * [temperatur.txt](Data_behandling/temperatur.txt)
 * [gjennomsnitt-mnd.csv](Data_behandling/gjennomsnitt-mnd.csv)
 * [doedelighet.csv](Data_behandling/doedelighet.csv)
-* [MathPlacment.csv](https://vincentarelbundock.github.io/Rdatasets/csv/ Stat2Data/MathPlacement.csv)
+* [MathPlacment.csv](https://vincentarelbundock.github.io/Rdatasets/csv/Stat2Data/MathPlacement.csv)
 
 
 
