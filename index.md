@@ -31,6 +31,7 @@
 * [MathPlacment.csv](https://vincentarelbundock.github.io/Rdatasets/csv/ Stat2Data/MathPlacement.csv)
 
 
+
 ## Filer til samling 5
 
 * [oldfaithful.csv](Data_behandling/faithful.csv) (eruption er varigheten til hvert utbrudd)
