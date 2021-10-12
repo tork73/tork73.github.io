@@ -1,7 +1,7 @@
 
 # Programmering i matematikkfaget
 
-Velkommen til 
+Velkommen til denne siden! Her vil du finne 
 
 ## Filer til oppgaver:
 
