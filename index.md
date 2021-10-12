@@ -1,7 +1,7 @@
 
 # Programmering i matematikkfaget
 
-[kod med trincket](program.html)
+
 
 
 ## Filer til oppgaver:
