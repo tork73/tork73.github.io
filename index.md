@@ -34,3 +34,4 @@
 * [PhDPublications.csv](https://vincentarelbundock.github.io/Rdatasets/csv/AER/PhDPublications.csv)
 
 [kod med trincket](program.html)
+
