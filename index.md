@@ -1,7 +1,7 @@
 
 # Programmering i matematikkfaget
 
-Velkommen til denne siden! Her vil du finne støttemateriell, filer, filmer og annet som er relevant for boken «Programmeri»
+Velkommen til denne siden! Her vil du finne støttemateriell, filer, filmer og annet som er relevant for boken «Programmering i matematikkfaget»
 
 ## Filer til oppgaver:
 
