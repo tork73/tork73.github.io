@@ -1,6 +1,8 @@
 
 # Programmering i matematikkfaget
 
+Velkommen til 
+
 ## Filer til oppgaver:
 
 * [vekt.txt](Data_behandling/vekt.txt)
