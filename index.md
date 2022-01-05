@@ -37,4 +37,3 @@ Se [vegvesent](https://www.vegvesen.no/trafikkdata/start/om-trafikkdata#om-ekspo
 
 [kod med trincket](program.html)
 
-
