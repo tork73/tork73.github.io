@@ -1,7 +1,7 @@
 
 # Programmering i matematikkfaget
 
-Velkommen! Her vil du finne støttemateriell, filer, filmer og annet som er relevant for boken «Programmering i matematikkfaget».
+Velkommen! På denne siden vil du finne støttemateriell, filer, filmer og annet som er relevant for boken «Programmering i matematikkfaget».
 
 ## Filer til oppgaver:
 
@@ -11,13 +11,13 @@ Velkommen! Her vil du finne støttemateriell, filer, filmer og annet som er rele
 * [posisjon.txt](Data_behandling/posisjon.txt)
 * [karakterer.csv](Data_behandling/karakterer.csv)
 * [austa.csv](https://vincentarelbundock.github.io/Rdatasets/csv/fpp2/austa.csv)
-* [fra-studalen.csv](Data_behandling/fra-studalen.csv) (Antall passeringer) 
+* [fra-studalen.csv](Data_behandling/fra-studalen.csv) (Antall passeringer)
 Se [vegvesent](https://www.vegvesen.no/trafikkdata/start/om-trafikkdata#om-eksport) for forklaring på innholdet i filen.
 * [temp.csv](Data_behandling/temp.csv)
 * [CO2.csv](Data_behandling/CO2.csv)
 * [run.csv](Data_behandling/run.csv)
 * [TitanicSurvival.csv](https://vincentarelbundock.github.io/Rdatasets/csv/carData/TitanicSurvival.csv) Innholder liste over passasjerer på Titanic.
-* [Nile.csv](https://vincentarelbundock.github.io/Rdatasets/csv/datasets/Nile.csv) Inneholder data over hvor mye vann som strømmer gjennom Nilen ved Aswan (målt i \(10^8 m^3\)) per år for årene mellom 1871 og 1970. 
+* [Nile.csv](https://vincentarelbundock.github.io/Rdatasets/csv/datasets/Nile.csv) Inneholder data over hvor mye vann som strømmer gjennom Nilen ved Aswan (målt i \(10^8 m^3\)) per år for årene mellom 1871 og 1970.
 * [punkt.csv](Data_behandling/punkt.csv)
 * [aviser.txt](Data_behandling/aviser.txt)
 * [terningkast.csv](Data_behandling/terningkast.csv)  
@@ -27,7 +27,7 @@ Se [vegvesent](https://www.vegvesen.no/trafikkdata/start/om-trafikkdata#om-ekspo
 * [MathPlacment.csv](https://vincentarelbundock.github.io/Rdatasets/csv/Stat2Data/MathPlacement.csv)
 * [oldfaithful.csv](Data_behandling/faithful.csv) (eruption er varigheten til hvert utbrudd)
 * [Artikkelen til Shaughnessy og Pfannkuch](http://www.web.pdx.edu/~jfreder/M212/oldfaithful.pdf)
-* [2019.csv](Data_behandling/2019.csv) 
+* [2019.csv](Data_behandling/2019.csv)
 * [1102.csv](Data_behandling/1102.csv) (befolkning i Norge i tredje kvartal 2021)  
 * [hoyde.csv](Data_behandling/hoyde.csv)
 * [StudentsPerformance.csv](Data_behandling/StudentsPerformance.csv)
@@ -37,5 +37,3 @@ Se [vegvesent](https://www.vegvesen.no/trafikkdata/start/om-trafikkdata#om-ekspo
 * [PhDPublications.csv](https://vincentarelbundock.github.io/Rdatasets/csv/AER/PhDPublications.csv)
 
 [kod med trincket](program.html)
-
-
