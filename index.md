@@ -28,7 +28,7 @@ Se [vegvesent](https://www.vegvesen.no/trafikkdata/start/om-trafikkdata#om-ekspo
 * [oldfaithful.csv](Data_behandling/faithful.csv) (eruption er varigheten til hvert utbrudd)
 * [Artikkelen til Shaughnessy og Pfannkuch](http://www.web.pdx.edu/~jfreder/M212/oldfaithful.pdf)
 * [2019.csv](Data_behandling/2019.csv) 
-* [1102.csv](Data_behandling/1102.csv) (befolkning i Norge i tredje kvartal 2021)
+* [1102.csv](Data_behandling/1102.csv) (befolkning i Norge i tredje kvartal 2021) 
 * [hoyde.csv](Data_behandling/hoyde.csv)
 * [StudentsPerformance.csv](Data_behandling/StudentsPerformance.csv)
 * [insurance.csv](https://raw.githubusercontent.com/stedy/Machine-Learning-with-R-datasets/master/insurance.csv)
