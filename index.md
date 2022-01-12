@@ -27,7 +27,6 @@ Se [vegvesent](https://www.vegvesen.no/trafikkdata/start/om-trafikkdata#om-ekspo
 * [doedelighet.csv](Data_behandling/doedelighet.csv)
 * [MathPlacment.csv](https://vincentarelbundock.github.io/Rdatasets/csv/Stat2Data/MathPlacement.csv)
 * [oldfaithful.csv](Data_behandling/faithful.csv) (eruption er varigheten til hvert utbrudd)
-* [Artikkelen til Shaughnessy og Pfannkuch](http://www.web.pdx.edu/~jfreder/M212/oldfaithful.pdf)
 * [2019.csv](Data_behandling/2019.csv)
 * [hoyde.csv](Data_behandling/hoyde.csv)
 * [StudentsPerformance.csv](Data_behandling/StudentsPerformance.csv)
@@ -36,4 +35,6 @@ Se [vegvesent](https://www.vegvesen.no/trafikkdata/start/om-trafikkdata#om-ekspo
 * [chickwts.csv](https://vincentarelbundock.github.io/Rdatasets/csv/datasets/chickwts.csv)
 * [PhDPublications.csv](https://vincentarelbundock.github.io/Rdatasets/csv/AER/PhDPublications.csv)
 
+
+* [Artikkelen til Shaughnessy og Pfannkuch](http://www.web.pdx.edu/~jfreder/M212/oldfaithful.pdf)
 [kod med trincket](program.html)
