@@ -38,6 +38,10 @@ Se [vegvesent](https://www.vegvesen.no/trafikkdata/start/om-trafikkdata#om-ekspo
 
 * [Artikkelen til Shaughnessy og Pfannkuch](http://www.web.pdx.edu/~jfreder/M212/oldfaithful.pdf)
 
-$\sin x$
+<!-- $$ 
+\sin x 
+$$ --> 
+
+<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=%5Csin%20x%20"></div> 
 
 [kod med trincket](program.html)
