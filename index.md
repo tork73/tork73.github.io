@@ -37,4 +37,7 @@ Se [vegvesent](https://www.vegvesen.no/trafikkdata/start/om-trafikkdata#om-ekspo
 
 
 * [Artikkelen til Shaughnessy og Pfannkuch](http://www.web.pdx.edu/~jfreder/M212/oldfaithful.pdf)
+
+$\sin x$
+
 [kod med trincket](program.html)
