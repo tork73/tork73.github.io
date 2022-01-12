@@ -3,7 +3,7 @@
 
 Velkommen! På denne siden vil du finne støttemateriell, filer, filmer og annet som er relevant for boken «Programmering i matematikkfaget».
 
-## Filer til oppgaver:
+## Filer til ulike oppgaver:
 
 * [vekt.txt](Data_behandling/vekt.txt)
 * [2017luft.txt](Data_behandling/2017luft.txt)
