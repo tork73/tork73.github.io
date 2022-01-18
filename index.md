@@ -19,7 +19,7 @@ Se [vegvesent](https://www.vegvesen.no/trafikkdata/start/om-trafikkdata#om-ekspo
 * [run.csv](Data_behandling/run.csv)
 * [TitanicSurvival.csv](https://vincentarelbundock.github.io/Rdatasets/csv/carData/TitanicSurvival.csv) Innholder liste over passasjerer på Titanic.
 * [Nile.csv](https://vincentarelbundock.github.io/Rdatasets/csv/datasets/Nile.csv) Inneholder data over hvor mye vann som strømmer gjennom Nilen ved Aswan (målt i \(10^8 m^3\)) per år for årene mellom 1871 og 1970.
-* [municipality_and_district.csv](https://raw.githubusercontent.com/thohan88/covid19-nor-data/master/data/01_infected/msis/municipality_and_district.csv)
+* [municipality_and_district.csv](Data_behandling/municipality_and_district.csv)
 * [punkt.csv](Data_behandling/punkt.csv)
 * [aviser.txt](Data_behandling/aviser.txt)
 * [terningkast.csv](Data_behandling/terningkast.csv)  
