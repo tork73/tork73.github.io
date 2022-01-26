@@ -1,0 +1,43 @@
+
+# Programmering i matematikkfaget
+
+Velkommen! På denne siden vil du finne støttemateriell, filer, filmer og annet som er relevant for boken «Programmering i matematikkfaget».
+
+## Filer til ulike oppgaver
+
+
+* [vekt.txt](Data_behandling/vekt.txt)
+* [2017luft.txt](Data_behandling/2017luft.txt)
+* [2018luft.txt](Data_behandling/2018luft.txt)
+* [posisjon.txt](Data_behandling/posisjon.txt)
+* [karakterer.csv](Data_behandling/karakterer.csv)
+* [austa.csv](https://vincentarelbundock.github.io/Rdatasets/csv/fpp2/austa.csv)
+* [fra-studalen.csv](Data_behandling/fra-studalen.csv) (Antall passeringer)
+Se [vegvesent](https://www.vegvesen.no/trafikkdata/start/om-trafikkdata#om-eksport) for forklaring på innholdet i filen.
+* [temp.csv](Data_behandling/temp.csv)
+* [CO2.csv](Data_behandling/CO2.csv)
+* [run.csv](Data_behandling/run.csv)
+* [TitanicSurvival.csv](https://vincentarelbundock.github.io/Rdatasets/csv/carData/TitanicSurvival.csv) Innholder liste over passasjerer på Titanic.
+* [Nile.csv](https://vincentarelbundock.github.io/Rdatasets/csv/datasets/Nile.csv) Inneholder data over hvor mye vann som strømmer gjennom Nilen ved Aswan (målt i \(10^8 m^3\)) per år for årene mellom 1871 og 1970.
+* [municipality_and_district.csv](Data_behandling/municipality_and_district.csv)
+* [punkt.csv](Data_behandling/punkt.csv)
+* [aviser.txt](Data_behandling/aviser.txt)
+* [terningkast.csv](Data_behandling/terningkast.csv)  
+* [temperatur.txt](Data_behandling/temperatur.txt)
+* [gjennomsnitt-mnd.csv](Data_behandling/gjennomsnitt-mnd.csv)
+* [doedelighet.csv](Data_behandling/doedelighet.csv)
+* [MathPlacment.csv](https://vincentarelbundock.github.io/Rdatasets/csv/Stat2Data/MathPlacement.csv)
+* [oldfaithful.csv](Data_behandling/faithful.csv) (eruption er varigheten til hvert utbrudd)
+* [2019.csv](Data_behandling/2019.csv)
+* [hoyde.csv](Data_behandling/hoyde.csv)
+* [StudentsPerformance.csv](Data_behandling/StudentsPerformance.csv)
+* [insurance.csv](https://raw.githubusercontent.com/stedy/Machine-Learning-with-R-datasets/master/insurance.csv)
+* [ToothGrowth.csv](https://vincentarelbundock.github.io/Rdatasets/csv/datasets/ToothGrowth.csv)
+* [chickwts.csv](https://vincentarelbundock.github.io/Rdatasets/csv/datasets/chickwts.csv)
+* [PhDPublications.csv](https://vincentarelbundock.github.io/Rdatasets/csv/AER/PhDPublications.csv)
+
+
+* [Artikkelen til Shaughnessy og Pfannkuch](http://www.web.pdx.edu/~jfreder/M212/oldfaithful.pdf)
+
+
+[kod med trincket](program.html)

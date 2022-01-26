@@ -1,6 +1,6 @@
 # Programmering i matematikkfaget
 
-På disse sidene finner du ting som er relevant for boken «Programmering i matematikkfaget», utgitt på Cappelen Damm Akademiske. 
+På disse sidene finner du ting som er relevant for boken «Programmering i matematikkfaget», utgitt på Cappelen Damm Akademisk. 
 
 ![forside](Programmering-forside.jpg)
 
