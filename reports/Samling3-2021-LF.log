@@ -24,7 +24,7 @@ Video("coding-chatt.mp4", width=600)
 
 [0;31m---------------------------------------------------------------------------[0m
 [0;31mValueError[0m                                Traceback (most recent call last)
-[0;32m/var/folders/yd/1b8d3z5979dfd108n9fvzv6c0000gn/T/ipykernel_62524/355782229.py[0m in [0;36m<module>[0;34m[0m
+[0;32m/var/folders/yd/1b8d3z5979dfd108n9fvzv6c0000gn/T/ipykernel_6324/355782229.py[0m in [0;36m<module>[0;34m[0m
 [1;32m      1[0m [0;32mfrom[0m [0mIPython[0m[0;34m.[0m[0mdisplay[0m [0;32mimport[0m [0mVideo[0m[0;34m[0m[0;34m[0m[0m
 [1;32m      2[0m [0;34m[0m[0m
 [0;32m----> 3[0;31m [0mVideo[0m[0;34m([0m[0;34m"coding-chatt.mp4"[0m[0;34m,[0m [0mwidth[0m[0;34m=[0m[0;36m600[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m

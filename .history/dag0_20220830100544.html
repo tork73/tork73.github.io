@@ -105,6 +105,11 @@
         <div class="navbar-brand-box">
     <a class="navbar-brand text-wrap" href="../index.html">
       
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="../_static/logo.png" class="logo" alt="logo">
       
       
       <h1 class="site-logo" id="site-title">Programmering i matematikkfaget</h1>
@@ -143,6 +148,11 @@
  <li class="toctree-l1">
   <a class="reference internal" href="../kapittel1.html">
    Kapittel 1
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Kap1-LF-oppgaver.html">
+   Løsningsforslag til utvalgte oppgaver i kapittel 1
   </a>
  </li>
 </ul>
@@ -198,9 +208,9 @@
         <!-- ipynb file if we had a myst markdown file -->
         
         <!-- Download raw file -->
-        <a class="dropdown-buttons" href="../_sources/.history/dag0_20220830100544.md"><button type="button"
+        <a class="dropdown-buttons" href="../_sources/.history/dag0_20220830100544.rst"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
-                data-placement="left">.md</button></a>
+                data-placement="left">.rst</button></a>
         <!-- Download PDF via print -->
         <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
                 onclick="printPdf(this)" data-toggle="tooltip" data-placement="left">.pdf</button>
