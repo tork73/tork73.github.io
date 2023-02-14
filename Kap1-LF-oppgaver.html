@@ -73,10 +73,6 @@
     <script src="_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="_static/sphinx-book-theme.d59cb220de22ca1c485ebbdc042f0030.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
-    <script src="https://unpkg.com/@jupyter-widgets/html-manager@^0.20.0/dist/embed-amd.js"></script>
-    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
-    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
     <script>
         const thebe_selector = ".thebe"
@@ -367,7 +363,6 @@
 <h1>Løsningsforslag til utvalgte oppgaver<a class="headerlink" href="#losningsforslag-til-utvalgte-oppgaver" title="Permalink to this heading">¶</a></h1>
 <section id="oppgave-1-4">
 <h2>Oppgave 1.4<a class="headerlink" href="#oppgave-1-4" title="Permalink to this heading">¶</a></h2>
-<p>Lag en kode som regner om 88<span class="math notranslate nohighlight">\(^\circ\)</span> F til Celsius.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">F</span> <span class="o">=</span> <span class="mi">88</span>
@@ -385,7 +380,6 @@
 </section>
 <section id="oppgave-1-6">
 <h2>Oppgave 1.6<a class="headerlink" href="#oppgave-1-6" title="Permalink to this heading">¶</a></h2>
-<p>Lag et program som regner ut omkretsen til en sirkel. Når du kjører programmet, skal det spørre brukeren om hva radius er, og så skrive ut omkretsen. Output skal gi omkretsen med tre desimalers nøyaktighet.</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">math</span> <span class="kn">import</span> <span class="n">pi</span>
 <span class="n">radius</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Skriv inn radius: &quot;</span><span class="p">)</span>
 <span class="n">radius</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="n">radius</span><span class="p">)</span>
@@ -396,7 +390,6 @@
 </section>
 <section id="oppgave-1-7">
 <h2>Oppgave 1.7<a class="headerlink" href="#oppgave-1-7" title="Permalink to this heading">¶</a></h2>
-<p>Lag et program som regner om fra minutter til timer + minutter. Det vil si at input skal være antall minutter og output skal være antall timer og antall minutter (mindre enn 60). Er for eksempel input 456 minutter, så skal output være 7 timer og 36 minutter.</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">minutter</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Skriv inn antall minutter: &quot;</span><span class="p">)</span>
 <span class="n">minutter</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">minutter</span><span class="p">)</span>      <span class="c1"># konverterer til heltall</span>
 <span class="n">timer</span> <span class="o">=</span> <span class="n">minutter</span> <span class="o">//</span> <span class="mi">60</span>        <span class="c1"># heltallsdivisjon</span>
@@ -407,11 +400,6 @@
 </section>
 <section id="oppgave-1-8">
 <h2>Oppgave 1.8<a class="headerlink" href="#oppgave-1-8" title="Permalink to this heading">¶</a></h2>
-<p>Dersom du kjenner lengden til hver av de tre sidene i en trekant, kan du
-bruke Herons formel til å regne ut arealet til trekanten.</p>
-<p>Dersom trekanten har sider med lengde <span class="math notranslate nohighlight">\(a\)</span>, <span class="math notranslate nohighlight">\(b\)</span> og <span class="math notranslate nohighlight">\(c\)</span>, så er arealet <span class="math notranslate nohighlight">\(F\)</span> gitt
-ved formelen <span class="math notranslate nohighlight">\(F = \sqrt{s(s-a)(s-b)(s-c) } \)</span>,der <span class="math notranslate nohighlight">\(  s = \tfrac{1}{2}(a+b+c)\)</span>.</p>
-<p>Lag et program som regner ut arealet til en trekant med sider <span class="math notranslate nohighlight">\(a = 5\)</span>, <span class="math notranslate nohighlight">\(b = 7\)</span> og <span class="math notranslate nohighlight">\(c=9\)</span>.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">a</span> <span class="o">=</span> <span class="mi">5</span>

@@ -73,8 +73,6 @@
     <script src="_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="_static/sphinx-book-theme.d59cb220de22ca1c485ebbdc042f0030.js"></script>
-    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
-    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
     <script>
         const thebe_selector = ".thebe"
@@ -365,8 +363,6 @@
 <h1>Løsningsforslag til utvalgte oppgaver i kapittel 3<a class="headerlink" href="#losningsforslag-til-utvalgte-oppgaver-i-kapittel-3" title="Permalink to this heading">¶</a></h1>
 <section id="oppgave-3-2">
 <h2>Oppgave 3.2<a class="headerlink" href="#oppgave-3-2" title="Permalink to this heading">¶</a></h2>
-<p>Lag et program som plukker ut det nest største tallet i listen L = [2,4,5,3,2,7,3,9]</p>
-<p><strong>Løsning:</strong></p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">L</span> <span class="o">=</span> <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">9</span><span class="p">]</span>
@@ -385,11 +381,6 @@
 </section>
 <section id="oppgave-3-6">
 <h2>Oppgave 3.6<a class="headerlink" href="#oppgave-3-6" title="Permalink to this heading">¶</a></h2>
-<p>Lag et program som regner ut de 50 første tallene i følgen <span class="math notranslate nohighlight">\(\{ H(n)\}\)</span>.</p>
-<p><strong>Løsning:</strong></p>
-<p>Vi bruker den rekursive sammenhengen vi fant (side 52 i boka):</p>
-<div class="math notranslate nohighlight">
-\[H(n) = H(n-1)+H(n-2) , \quad H(1)=1 , \ H(2)=2\]</div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">H</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">*</span><span class="mi">51</span>  <span class="c1"># Lager en liste med 51 nuller. Det første elementet svarer til 0 trinn, det andre til 1 trinn osv.</span>
@@ -463,13 +454,6 @@
 </section>
 <section id="oppgave-3-9">
 <h2>Oppgave 3.9<a class="headerlink" href="#oppgave-3-9" title="Permalink to this heading">¶</a></h2>
-<p>Elise har arvet 120000 kroner som hun setter inn på en konto med en fast årlig rentefot på 3%. Én gang i året tar hun ut 4000 kroner fra kontoen, første gang ett år etter at hun satte inn pengene på kontoen.</p>
-<p>a) Forklar at vi kan beskrive situasjonen over ved den rekursive sammenhengen</p>
-<div class="math notranslate nohighlight">
-\[ x_{n+1} = x_n\cdot 1.03 - 4000, \ \ x_0 = 120\,000 \]</div>
-<p>b) Hvor mye er igjen på kontoen etter 15 år?</p>
-<p>c) Hvor mange år går det før det er 100,000 kroner igjen på kontoen?</p>
-<p><strong>Løsning:</strong></p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># b) </span>
@@ -511,20 +495,6 @@ Etter 31 år er det 99998.93 kroner igjen.
 </section>
 <section id="oppgave-3-12">
 <h2>Oppgave 3.12<a class="headerlink" href="#oppgave-3-12" title="Permalink to this heading">¶</a></h2>
-<p>Arkimedes fant en tilnærmet verdi av <span class="math notranslate nohighlight">\(\pi\)</span> ved å se på omskrevne og innskrevne regulære polygoner til sirkler.</p>
-<p><img alt="Arkimedes" src="_images/arkimedes.png" /></p>
-<p>Vi lar <span class="math notranslate nohighlight">\(a_i\)</span> og <span class="math notranslate nohighlight">\(b_i\)</span> være omkretsen av henholdsvis det omskrevne og
-det innskrevne regulære  polygonet med <span class="math notranslate nohighlight">\(2^{i+2}\)</span> kanter. Det vil si at <span class="math notranslate nohighlight">\(a_0\)</span>
-er omkretsen til det omskrevne kvadratet.</p>
-<p>Da kan vi vise følgende sammenheng mellom sidene:</p>
-<div class="math notranslate nohighlight">
-\[ a_{i+1} = \frac{2\cdot a_i\cdot b_i}{a_i+b_i} \]</div>
-<div class="math notranslate nohighlight">
-\[ b_{i+1} =\sqrt{a_{i+1}\cdot b_i} \]</div>
-<div class="math notranslate nohighlight">
-\[  a_0 = 4 \ \text{ og } \ b_0=2\cdot \sqrt{2}\]</div>
-<p>Lag et program som regner ut en god verdi for <span class="math notranslate nohighlight">\(\pi\)</span>.</p>
-<p><strong>Løsning:</strong></p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">math</span> <span class="kn">import</span> <span class="n">sqrt</span>
