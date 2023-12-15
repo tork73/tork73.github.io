@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 
 
-<html lang="nb" data-content_root="" >
+<html lang="nb-NO" data-content_root="" >
 
   <head>
     <meta charset="utf-8" />
@@ -35,20 +35,6 @@
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
-    <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
-    <link rel="stylesheet" type="text/css" href="_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
-    <link rel="stylesheet" type="text/css" href="_static/basic.css" />
-    <link rel="stylesheet" type="text/css" href="_static/sphinx-book-theme.css" />
-    <link rel="stylesheet" type="text/css" href="_static/sphinx-book-theme.e2363ea40746bee74734a24ffefccd78.css" />
-    <link rel="stylesheet" type="text/css" href="_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
-    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
-    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
-    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
-    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
-    <link rel="stylesheet" type="text/css" href="_static/css/blank.css" />
-    <link rel="stylesheet" type="text/css" href="_static/css/theme.css" />
-    <link rel="stylesheet" type="text/css" href="_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" />
-    <link rel="stylesheet" type="text/css" href="_static/vendor/fontawesome/5.13.0/css/all.min.css" />
     <link rel="stylesheet" type="text/css" href="_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
@@ -68,21 +54,7 @@
     <script>let toggleHintHide = 'Click to hide';</script>
     <script>let toggleOpenOnPrint = 'true';</script>
     <script src="_static/togglebutton.js"></script>
-    <script src="_static/underscore.js"></script>
-    <script src="_static/documentation_options.js"></script>
-    <script src="_static/searchtools.js"></script>
-    <script src="_static/clipboard.min.js"></script>
-    <script src="_static/copybutton.js"></script>
-    <script src="_static/jquery-3.5.1.js"></script>
-    <script src="_static/language_data.js"></script>
-    <script src="_static/copybutton_funcs.js"></script>
-    <script src="_static/sphinx-thebe.js"></script>
-    <script src="_static/doctools.js"></script>
-    <script src="_static/togglebutton.js"></script>
-    <script src="_static/sphinx-book-theme.d59cb220de22ca1c485ebbdc042f0030.js"></script>
-    <script src="_static/jquery.js"></script>
-    <script src="_static/underscore-1.13.1.js"></script>
-    <script src="_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
+    <script src="_static/translations.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script src="_static/design-tabs.js"></script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
@@ -97,7 +69,7 @@ const thebe_selector_output = ".output, .cell_output"
     <link rel="next" title="Løsningsforslag til utvalgte oppgaver i kapittel 5" href="Kap5-LF-oppgaver.html" />
     <link rel="prev" title="Løsningsforslag til utvalgte oppgaver i kapittel 3" href="Kap3-LF-oppgaver.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <meta name="docsearch:language" content="nb"/>
+  <meta name="docsearch:language" content="nb-NO"/>
   </head>
   
   
@@ -177,8 +149,14 @@ const thebe_selector_output = ".output, .cell_output"
   
   
   
+    
+    
+      
+    
+    
+    <img src="_static/logo.png" class="logo__image only-light" alt="Programmering i matematikkfaget - Home"/>
+    <script>document.write(`<img src="_static/logo.png" class="logo__image only-dark" alt="Programmering i matematikkfaget - Home"/>`);</script>
   
-    <p class="title logo__title">Programmering i matematikkfaget</p>
   
 </a></div>
         <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
@@ -269,43 +247,45 @@ const thebe_selector_output = ".output, .cell_output"
 
 
 
-<div class="dropdown dropdown-source-buttons">
-  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
-    <i class="fab fa-github"></i>
+<div class="dropdown dropdown-launch-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Launch interactive content">
+    <i class="fas fa-rocket"></i>
   </button>
   <ul class="dropdown-menu">
       
       
       
-      <li><a href="https://github.com/executablebooks/jupyter-book" target="_blank"
-   class="btn btn-sm btn-source-repository-button dropdown-item"
-   title="Source repository"
+      <li><a href="https://mybinder.org/v2/gh/executablebooks/jupyter-book/master?urlpath=tree/docs/Kap4-LF-oppgaver.ipynb" target="_blank"
+   class="btn btn-sm dropdown-item"
+   title="Launch onBinder"
    data-bs-placement="left" data-bs-toggle="tooltip"
 >
   
 
 <span class="btn__icon-container">
-  <i class="fab fa-github"></i>
+  
+    <img src="_static/images/logo_binder.svg">
   </span>
-<span class="btn__text-container">Repository</span>
+<span class="btn__text-container">Binder</span>
 </a>
 </li>
       
       
       
       
-      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2FKap4-LF-oppgaver.html&body=Your%20issue%20content%20here." target="_blank"
-   class="btn btn-sm btn-source-issues-button dropdown-item"
-   title="Open an issue"
-   data-bs-placement="left" data-bs-toggle="tooltip"
+      <li>
+<button onclick="initThebeSBT()"
+  class="btn btn-sm btn-launch-thebe dropdown-item"
+  title="Launch Thebe"
+  data-bs-placement="left" data-bs-toggle="tooltip"
 >
   
 
 <span class="btn__icon-container">
-  <i class="fas fa-lightbulb"></i>
+  <i class="fas fa-play"></i>
   </span>
-<span class="btn__text-container">Open issue</span>
-</a>
+<span class="btn__text-container">Live Code</span>
+</button>
 </li>
       
   </ul>
@@ -462,7 +442,7 @@ document.write(`
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="_images/f9fb55a8c9b2af6a49c2ee3eed1d7dc1b6c5617db85d01237278daa51c848a4d.png" src="_images/f9fb55a8c9b2af6a49c2ee3eed1d7dc1b6c5617db85d01237278daa51c848a4d.png" />
+<img alt="_images/eae047d39debe4ab1ae5337276c3bdc068d3398e301f40bb9326c41e08f3f71f.png" src="_images/eae047d39debe4ab1ae5337276c3bdc068d3398e301f40bb9326c41e08f3f71f.png" />
 <div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Elevene brukte  i gjennomsnitt 6.00 timer på spill i uken
 </pre></div>
 </div>
@@ -491,7 +471,7 @@ document.write(`
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="_images/d230fcdcb58670d97f6ac8c8c4580b628c04d7bfe8507e3a017cb06480126920.png" src="_images/d230fcdcb58670d97f6ac8c8c4580b628c04d7bfe8507e3a017cb06480126920.png" />
+<img alt="_images/f497d9d47586e15c87cc03631206e0379fb180059a7e542bf9fba8eddf74fd52.png" src="_images/f497d9d47586e15c87cc03631206e0379fb180059a7e542bf9fba8eddf74fd52.png" />
 </div>
 </div>
 </section>
@@ -517,7 +497,7 @@ document.write(`
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="_images/b6dd2eca17516f5c1448dfcc7dd83ecdd214b49925995280fb41e9f0fa9bd60d.png" src="_images/b6dd2eca17516f5c1448dfcc7dd83ecdd214b49925995280fb41e9f0fa9bd60d.png" />
+<img alt="_images/8109795afb9f1a48ca15a84592b62981b4b391e1ccc52d409d4be16a28a18450.png" src="_images/8109795afb9f1a48ca15a84592b62981b4b391e1ccc52d409d4be16a28a18450.png" />
 </div>
 </div>
 </section>
@@ -546,7 +526,7 @@ document.write(`
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="_images/209ea6bd734ca5334a814293cf053bbf47f3a0b07591fe9e10edcacf9ac49a75.png" src="_images/209ea6bd734ca5334a814293cf053bbf47f3a0b07591fe9e10edcacf9ac49a75.png" />
+<img alt="_images/674bd5f0d735e66a49a25b277416f8e12676578969aacc6bd2f783b29ea5f11a.png" src="_images/674bd5f0d735e66a49a25b277416f8e12676578969aacc6bd2f783b29ea5f11a.png" />
 </div>
 </div>
 <p>Dersom du synes det er litt juks å plotte grafen over tre områder, som vist ovenfor, kan du maskere vekk verdier.</p>
@@ -577,7 +557,7 @@ document.write(`
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="_images/fd6383ed254ec628da854886d91b5521e5fea109cef5fedcf5f9a666e71e24b6.png" src="_images/fd6383ed254ec628da854886d91b5521e5fea109cef5fedcf5f9a666e71e24b6.png" />
+<img alt="_images/948804d1cad9935d64d040a42998e9f57ac401f20ac2a19b9b477ff4ee5949cd.png" src="_images/948804d1cad9935d64d040a42998e9f57ac401f20ac2a19b9b477ff4ee5949cd.png" />
 </div>
 </div>
 </section>
@@ -600,7 +580,7 @@ document.write(`
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="_images/456087a1c94d04212729db6700904879b6a847bd7662028dff4cc4f40b954f7f.png" src="_images/456087a1c94d04212729db6700904879b6a847bd7662028dff4cc4f40b954f7f.png" />
+<img alt="_images/0e13f8d5faaabbe7e1e6a43b8b2237ce4df3b76835b93085ff18ce0ce8e582c7.png" src="_images/0e13f8d5faaabbe7e1e6a43b8b2237ce4df3b76835b93085ff18ce0ce8e582c7.png" />
 </div>
 </div>
 </section>
@@ -630,7 +610,7 @@ document.write(`
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="_images/5ca1c2bd1cbf7befa3cca448a861700af99a399c11d790dfa58873ed212ecb4f.png" src="_images/5ca1c2bd1cbf7befa3cca448a861700af99a399c11d790dfa58873ed212ecb4f.png" />
+<img alt="_images/06ce4ad68b9521cbf0c53c78a5cdfdd8f3ffb5f2479f5c7145d7e4fa1e3d1158.png" src="_images/06ce4ad68b9521cbf0c53c78a5cdfdd8f3ffb5f2479f5c7145d7e4fa1e3d1158.png" />
 </div>
 </div>
 </section>
@@ -674,7 +654,7 @@ document.write(`
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="_images/f9529d2ac5a354827534f9225e4289b38e93e0ead2b0ae656499320442e79276.png" src="_images/f9529d2ac5a354827534f9225e4289b38e93e0ead2b0ae656499320442e79276.png" />
+<img alt="_images/c2c6d61810961370f5dfad6a85d7801268539078dcfe1c09231b0cc4df61dde6.png" src="_images/c2c6d61810961370f5dfad6a85d7801268539078dcfe1c09231b0cc4df61dde6.png" />
 </div>
 </div>
 </section>
@@ -705,7 +685,7 @@ document.write(`
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="_images/c112e62033412f74e49d73ca823bc29c1d497ecc86df6eb45966fc2a1ac43621.png" src="_images/c112e62033412f74e49d73ca823bc29c1d497ecc86df6eb45966fc2a1ac43621.png" />
+<img alt="_images/8e5730999e4ddced3c1e6ac98fdfd6eb1fdc7fc75bb129c9e40c77cd79847334.png" src="_images/8e5730999e4ddced3c1e6ac98fdfd6eb1fdc7fc75bb129c9e40c77cd79847334.png" />
 </div>
 </div>
 </section>
@@ -741,7 +721,7 @@ document.write(`
 Standardavviket er 6.66 cm
 </pre></div>
 </div>
-<img alt="_images/4252e63e7460055229433e67000a7f9eeebcc46a34aff749b157cc375ef3e57c.png" src="_images/4252e63e7460055229433e67000a7f9eeebcc46a34aff749b157cc375ef3e57c.png" />
+<img alt="_images/ecd531e6e7a8fc53343a545242bf7537259426e9da92cedae1408b59964358e8.png" src="_images/ecd531e6e7a8fc53343a545242bf7537259426e9da92cedae1408b59964358e8.png" />
 </div>
 </div>
 </section>
@@ -751,7 +731,7 @@ Standardavviket er 6.66 cm
     {
         requestKernel: true,
         binderOptions: {
-            repo: "binder-examples/jupyter-stacks-datascience",
+            repo: "executablebooks/jupyter-book",
             ref: "master",
         },
         codeMirrorConfig: {

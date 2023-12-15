@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 
 
-<html lang="nb" data-content_root="" >
+<html lang="nb-NO" data-content_root="" >
 
   <head>
     <meta charset="utf-8" />
@@ -35,20 +35,6 @@
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
-    <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
-    <link rel="stylesheet" type="text/css" href="_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
-    <link rel="stylesheet" type="text/css" href="_static/basic.css" />
-    <link rel="stylesheet" type="text/css" href="_static/sphinx-book-theme.css" />
-    <link rel="stylesheet" type="text/css" href="_static/sphinx-book-theme.e2363ea40746bee74734a24ffefccd78.css" />
-    <link rel="stylesheet" type="text/css" href="_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
-    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
-    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
-    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
-    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
-    <link rel="stylesheet" type="text/css" href="_static/css/blank.css" />
-    <link rel="stylesheet" type="text/css" href="_static/css/theme.css" />
-    <link rel="stylesheet" type="text/css" href="_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" />
-    <link rel="stylesheet" type="text/css" href="_static/vendor/fontawesome/5.13.0/css/all.min.css" />
     <link rel="stylesheet" type="text/css" href="_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
@@ -68,21 +54,7 @@
     <script>let toggleHintHide = 'Click to hide';</script>
     <script>let toggleOpenOnPrint = 'true';</script>
     <script src="_static/togglebutton.js"></script>
-    <script src="_static/underscore.js"></script>
-    <script src="_static/documentation_options.js"></script>
-    <script src="_static/searchtools.js"></script>
-    <script src="_static/clipboard.min.js"></script>
-    <script src="_static/copybutton.js"></script>
-    <script src="_static/jquery-3.5.1.js"></script>
-    <script src="_static/language_data.js"></script>
-    <script src="_static/copybutton_funcs.js"></script>
-    <script src="_static/sphinx-thebe.js"></script>
-    <script src="_static/doctools.js"></script>
-    <script src="_static/togglebutton.js"></script>
-    <script src="_static/sphinx-book-theme.d59cb220de22ca1c485ebbdc042f0030.js"></script>
-    <script src="_static/jquery.js"></script>
-    <script src="_static/underscore-1.13.1.js"></script>
-    <script src="_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
+    <script src="_static/translations.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script src="_static/design-tabs.js"></script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
@@ -96,10 +68,10 @@ const thebe_selector_output = ".output, .cell_output"
     <script>DOCUMENTATION_OPTIONS.pagename = 'Kap5-LF-oppgaver';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Søk" href="search.html" />
-    <link rel="next" title="Løsningsforslag til utvalgte oppgaver i kapittel 6" href="Kap6-LF-oppgaver.html" />
+    <link rel="next" title="Løsningsforslag til kapittel 6" href="Kap6-LF-oppgaver.html" />
     <link rel="prev" title="Løsningsforslag til utvalgte oppgaver i kapittel 4" href="Kap4-LF-oppgaver.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <meta name="docsearch:language" content="nb"/>
+  <meta name="docsearch:language" content="nb-NO"/>
   </head>
   
   
@@ -179,8 +151,14 @@ const thebe_selector_output = ".output, .cell_output"
   
   
   
+    
+    
+      
+    
+    
+    <img src="_static/logo.png" class="logo__image only-light" alt="Programmering i matematikkfaget - Home"/>
+    <script>document.write(`<img src="_static/logo.png" class="logo__image only-dark" alt="Programmering i matematikkfaget - Home"/>`);</script>
   
-    <p class="title logo__title">Programmering i matematikkfaget</p>
   
 </a></div>
         <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
@@ -271,43 +249,45 @@ const thebe_selector_output = ".output, .cell_output"
 
 
 
-<div class="dropdown dropdown-source-buttons">
-  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
-    <i class="fab fa-github"></i>
+<div class="dropdown dropdown-launch-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Launch interactive content">
+    <i class="fas fa-rocket"></i>
   </button>
   <ul class="dropdown-menu">
       
       
       
-      <li><a href="https://github.com/executablebooks/jupyter-book" target="_blank"
-   class="btn btn-sm btn-source-repository-button dropdown-item"
-   title="Source repository"
+      <li><a href="https://mybinder.org/v2/gh/executablebooks/jupyter-book/master?urlpath=tree/docs/Kap5-LF-oppgaver.ipynb" target="_blank"
+   class="btn btn-sm dropdown-item"
+   title="Launch onBinder"
    data-bs-placement="left" data-bs-toggle="tooltip"
 >
   
 
 <span class="btn__icon-container">
-  <i class="fab fa-github"></i>
+  
+    <img src="_static/images/logo_binder.svg">
   </span>
-<span class="btn__text-container">Repository</span>
+<span class="btn__text-container">Binder</span>
 </a>
 </li>
       
       
       
       
-      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2FKap5-LF-oppgaver.html&body=Your%20issue%20content%20here." target="_blank"
-   class="btn btn-sm btn-source-issues-button dropdown-item"
-   title="Open an issue"
-   data-bs-placement="left" data-bs-toggle="tooltip"
+      <li>
+<button onclick="initThebeSBT()"
+  class="btn btn-sm btn-launch-thebe dropdown-item"
+  title="Launch Thebe"
+  data-bs-placement="left" data-bs-toggle="tooltip"
 >
   
 
 <span class="btn__icon-container">
-  <i class="fas fa-lightbulb"></i>
+  <i class="fas fa-play"></i>
   </span>
-<span class="btn__text-container">Open issue</span>
-</a>
+<span class="btn__text-container">Live Code</span>
+</button>
 </li>
       
   </ul>
@@ -474,7 +454,7 @@ document.write(`
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="_images/baebe213471093642b94d3e3ca21bb99cc5311b8a8c9a888d0db4f5aa8c8e5b4.png" src="_images/baebe213471093642b94d3e3ca21bb99cc5311b8a8c9a888d0db4f5aa8c8e5b4.png" />
+<img alt="_images/572b998e3250c467c382f95a41039f2a79ca6e78806678817aad567bddb77bc4.png" src="_images/572b998e3250c467c382f95a41039f2a79ca6e78806678817aad567bddb77bc4.png" />
 </div>
 </div>
 <p>Siden jeg vet at <span class="math notranslate nohighlight">\(f(x)\)</span> er strengt voksende, så er det kun ett nullpunkt. Jeg ser at dette ligger mellom 0 og 1.</p>
@@ -516,7 +496,7 @@ document.write(`
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="_images/6e8ec3cb4cdb72e0b687607ed2b64a11cf8b794bda880628d05540a134dd6fc3.png" src="_images/6e8ec3cb4cdb72e0b687607ed2b64a11cf8b794bda880628d05540a134dd6fc3.png" />
+<img alt="_images/73d69d01c8e482b9c70a9cf711ffb81e5357be08d1102a0418fe68d65592f63c.png" src="_images/73d69d01c8e482b9c70a9cf711ffb81e5357be08d1102a0418fe68d65592f63c.png" />
 </div>
 </div>
 <p>Jeg ser at det er tre nullpunkter. Ett mellom -1 og 0, ett mellom 0 og 1 og ett mellom 2 og 3. Siden hver at de tre intervallene jeg skal bruke har lengde 1, så må jeg bruke 34 iterasjoner.</p>
@@ -669,7 +649,7 @@ document.write(`
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="_images/c489042d1c885d5e4ff0fa95e5a8c0a16c85e075d301a3fc836e795cc2f6df33.png" src="_images/c489042d1c885d5e4ff0fa95e5a8c0a16c85e075d301a3fc836e795cc2f6df33.png" />
+<img alt="_images/a992c553d144b146e1a26475ea68a843ad098a886cbc9cd8ea04aaf1f5394f42.png" src="_images/a992c553d144b146e1a26475ea68a843ad098a886cbc9cd8ea04aaf1f5394f42.png" />
 </div>
 </div>
 </section>
@@ -745,7 +725,7 @@ document.write(`
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="_images/d4b86a11fbb50fc33bd36f9fe19ab0156c1403fa503db38537981c3b07f45e7c.png" src="_images/d4b86a11fbb50fc33bd36f9fe19ab0156c1403fa503db38537981c3b07f45e7c.png" />
+<img alt="_images/eabad10e934ea5ec8494d1a990cc7a3ef08e3311bb94aef61dacd2d51d0e2b84.png" src="_images/eabad10e934ea5ec8494d1a990cc7a3ef08e3311bb94aef61dacd2d51d0e2b84.png" />
 </div>
 </div>
 </section>
@@ -768,7 +748,7 @@ document.write(`
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="_images/8ef7b6303e1aee7ac9595e59491eafbb5b31977fe7630eadef8071d010269a6b.png" src="_images/8ef7b6303e1aee7ac9595e59491eafbb5b31977fe7630eadef8071d010269a6b.png" />
+<img alt="_images/780ec0aad8e3c9d8fa1fd0f2f32910705e347fb7bf5758a91555f41f44c3042e.png" src="_images/780ec0aad8e3c9d8fa1fd0f2f32910705e347fb7bf5758a91555f41f44c3042e.png" />
 </div>
 </div>
 <p>Jeg ser at <span class="math notranslate nohighlight">\(f\)</span> kun har ett nullpunkt. Dette ligger mellom 0 og 1. Jeg kunne også se at det er kun ett nullpunkt ved å observere at <span class="math notranslate nohighlight">\(f'(x)=5x^4+1\)</span>. Denne er alltid større enn 0, og dermed er <span class="math notranslate nohighlight">\(f\)</span> alltid voksende.</p>
@@ -811,7 +791,7 @@ document.write(`
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="_images/7556cab4750a99a0cda8740714c985b90a3eba3976fecfa14d7f6ba2b02d83bf.png" src="_images/7556cab4750a99a0cda8740714c985b90a3eba3976fecfa14d7f6ba2b02d83bf.png" />
+<img alt="_images/4b138e0cbb277e2298c334471dfb382f1dc5286ff9c4bceead31b6a0a40e80b3.png" src="_images/4b138e0cbb277e2298c334471dfb382f1dc5286ff9c4bceead31b6a0a40e80b3.png" />
 </div>
 </div>
 <div class="cell docutils container">
@@ -916,7 +896,7 @@ document.write(`
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="_images/627d1bedf01f4fd4077c57827e8140a42a7ce5657337f2a92783383e9c48fb39.png" src="_images/627d1bedf01f4fd4077c57827e8140a42a7ce5657337f2a92783383e9c48fb39.png" />
+<img alt="_images/7bad62c7b0b80bc1ff82d5ae7355253b49eb25cfebefaffbc12c12d7321b552e.png" src="_images/7bad62c7b0b80bc1ff82d5ae7355253b49eb25cfebefaffbc12c12d7321b552e.png" />
 </div>
 </div>
 <div class="cell docutils container">
@@ -954,7 +934,7 @@ document.write(`
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="_images/a26de08c50130b2cdcc04c64a784da9c849a05ef31141adbe77a3f453cc28fb7.png" src="_images/a26de08c50130b2cdcc04c64a784da9c849a05ef31141adbe77a3f453cc28fb7.png" />
+<img alt="_images/de90702089eef7b6c422dfd6670193d4aa106100fdc00207ab2997f87d293da2.png" src="_images/de90702089eef7b6c422dfd6670193d4aa106100fdc00207ab2997f87d293da2.png" />
 </div>
 </div>
 </section>
@@ -1026,7 +1006,7 @@ Nullpunkt i 0.832
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="_images/e7baba5b2e2d3435178a59b8a79fd91aa7fe82ab54c1df3f7135359bd510b4d8.png" src="_images/e7baba5b2e2d3435178a59b8a79fd91aa7fe82ab54c1df3f7135359bd510b4d8.png" />
+<img alt="_images/7efb0911c631b8a2a2fa5dfb2ad638676556cb40d876d2d52faf05ded42ec569.png" src="_images/7efb0911c631b8a2a2fa5dfb2ad638676556cb40d876d2d52faf05ded42ec569.png" />
 </div>
 </div>
 <p>Jeg ser at det er to løsninger. En mellom -1 og 0 og en mellom 0 og 1. Jeg kan bruke halveringsmetoden for å finne disse.</p>
@@ -1113,7 +1093,7 @@ Nullpunkt i 0.832
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="_images/403ad511934db89fbf30534b1cb173b1281499870f7ba3b4200c5071aacb7131.png" src="_images/403ad511934db89fbf30534b1cb173b1281499870f7ba3b4200c5071aacb7131.png" />
+<img alt="_images/48ac7439acf078c6ad45c8c7f0b99503b64f2279a1506ea36267d8f00c9adebb.png" src="_images/48ac7439acf078c6ad45c8c7f0b99503b64f2279a1506ea36267d8f00c9adebb.png" />
 </div>
 </div>
 </section>
@@ -1193,7 +1173,7 @@ Høyre Riemannsum er 1.5707
     {
         requestKernel: true,
         binderOptions: {
-            repo: "binder-examples/jupyter-stacks-datascience",
+            repo: "executablebooks/jupyter-book",
             ref: "master",
         },
         codeMirrorConfig: {
@@ -1233,7 +1213,7 @@ Høyre Riemannsum er 1.5707
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">neste</p>
-        <p class="prev-next-title">Løsningsforslag til utvalgte oppgaver i kapittel 6</p>
+        <p class="prev-next-title">Løsningsforslag til kapittel 6</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>

@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 
 
-<html lang="nb" data-content_root="" >
+<html lang="nb-NO" data-content_root="" >
 
   <head>
     <meta charset="utf-8" />
@@ -35,6 +35,20 @@
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/basic.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-book-theme.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-book-theme.e2363ea40746bee74734a24ffefccd78.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/css/blank.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/css/theme.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/vendor/fontawesome/5.13.0/css/all.min.css" />
     <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
     <link rel="stylesheet" type="text/css" href="../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
     <link rel="stylesheet" type="text/css" href="../_static/basic.css" />
@@ -83,6 +97,22 @@
     <script src="../_static/jquery.js"></script>
     <script src="../_static/underscore-1.13.1.js"></script>
     <script src="../_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/documentation_options.js"></script>
+    <script src="../_static/searchtools.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/jquery-3.5.1.js"></script>
+    <script src="../_static/language_data.js"></script>
+    <script src="../_static/copybutton_funcs.js"></script>
+    <script src="../_static/sphinx-thebe.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/togglebutton.js"></script>
+    <script src="../_static/sphinx-book-theme.d59cb220de22ca1c485ebbdc042f0030.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore-1.13.1.js"></script>
+    <script src="../_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
+    <script src="../_static/translations.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script src="../_static/design-tabs.js"></script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
@@ -100,7 +130,7 @@ const thebe_selector_output = ".output, .cell_output"
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Søk" href="../search.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <meta name="docsearch:language" content="nb"/>
+  <meta name="docsearch:language" content="nb-NO"/>
   </head>
   
   
@@ -272,43 +302,45 @@ const thebe_selector_output = ".output, .cell_output"
 
 
 
-<div class="dropdown dropdown-source-buttons">
-  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
-    <i class="fab fa-github"></i>
+<div class="dropdown dropdown-launch-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Launch interactive content">
+    <i class="fas fa-rocket"></i>
   </button>
   <ul class="dropdown-menu">
       
       
       
-      <li><a href="https://github.com/executablebooks/jupyter-book" target="_blank"
-   class="btn btn-sm btn-source-repository-button dropdown-item"
-   title="Source repository"
+      <li><a href="https://mybinder.org/v2/gh/executablebooks/jupyter-book/master?urlpath=tree/docs/_sources/Samling3-2021-LF.ipynb" target="_blank"
+   class="btn btn-sm dropdown-item"
+   title="Launch onBinder"
    data-bs-placement="left" data-bs-toggle="tooltip"
 >
   
 
 <span class="btn__icon-container">
-  <i class="fab fa-github"></i>
+  
+    <img src="../_static/images/logo_binder.svg">
   </span>
-<span class="btn__text-container">Repository</span>
+<span class="btn__text-container">Binder</span>
 </a>
 </li>
       
       
       
       
-      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2F_sources/Samling3-2021-LF.html&body=Your%20issue%20content%20here." target="_blank"
-   class="btn btn-sm btn-source-issues-button dropdown-item"
-   title="Open an issue"
-   data-bs-placement="left" data-bs-toggle="tooltip"
+      <li>
+<button onclick="initThebeSBT()"
+  class="btn btn-sm btn-launch-thebe dropdown-item"
+  title="Launch Thebe"
+  data-bs-placement="left" data-bs-toggle="tooltip"
 >
   
 
 <span class="btn__icon-container">
-  <i class="fas fa-lightbulb"></i>
+  <i class="fas fa-play"></i>
   </span>
-<span class="btn__text-container">Open issue</span>
-</a>
+<span class="btn__text-container">Live Code</span>
+</button>
 </li>
       
   </ul>
@@ -602,7 +634,7 @@ document.write(`
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="../_images/7620f9d4567df660a2afbcd286fb987e95fbb052e05c5f3d6fc6734cbecbb1a8.png" src="../_images/7620f9d4567df660a2afbcd286fb987e95fbb052e05c5f3d6fc6734cbecbb1a8.png" />
+<img alt="../_images/1da37f99eb4246db1cc26fa0e83931290cf619b8bcffc02324c313fc6cdf2ca9.png" src="../_images/1da37f99eb4246db1cc26fa0e83931290cf619b8bcffc02324c313fc6cdf2ca9.png" />
 </div>
 </div>
 </section>
@@ -642,7 +674,7 @@ f(x) =
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="../_images/e009a17bc0d87616d5e811cad7f1523a492d58899faef2c8785630074d505250.png" src="../_images/e009a17bc0d87616d5e811cad7f1523a492d58899faef2c8785630074d505250.png" />
+<img alt="../_images/012f7c0b1cc99dace48d419e42a84be26b3ebc1857afbe51803a4280673d3702.png" src="../_images/012f7c0b1cc99dace48d419e42a84be26b3ebc1857afbe51803a4280673d3702.png" />
 </div>
 </div>
 </section>
@@ -684,11 +716,53 @@ f(x) =
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>/var/folders/yd/1b8d3z5979dfd108n9fvzv6c0000gn/T/ipykernel_12308/2265580912.py:17: MatplotlibDeprecationWarning: The seaborn styles shipped by Matplotlib are deprecated since 3.6, as they no longer correspond to the styles shipped by seaborn. However, they will remain available as &#39;seaborn-v0_8-&lt;style&gt;&#39;. Alternatively, directly use the seaborn API instead.
-  plt.style.use(&quot;seaborn&quot;)
+<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
+<span class="ne">FileNotFoundError</span><span class="g g-Whitespace">                         </span>Traceback (most recent call last)
+<span class="nn">File ~/anaconda3/lib/python3.11/site-packages/matplotlib/style/core.py:137,</span> in <span class="ni">use</span><span class="nt">(style)</span>
+<span class="g g-Whitespace">    </span><span class="mi">136</span> <span class="k">try</span><span class="p">:</span>
+<span class="ne">--&gt; </span><span class="mi">137</span>     <span class="n">style</span> <span class="o">=</span> <span class="n">_rc_params_in_file</span><span class="p">(</span><span class="n">style</span><span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">138</span> <span class="k">except</span> <span class="ne">OSError</span> <span class="k">as</span> <span class="n">err</span><span class="p">:</span>
+
+<span class="nn">File ~/anaconda3/lib/python3.11/site-packages/matplotlib/__init__.py:866,</span> in <span class="ni">_rc_params_in_file</span><span class="nt">(fname, transform, fail_on_error)</span>
+<span class="g g-Whitespace">    </span><span class="mi">865</span> <span class="n">rc_temp</span> <span class="o">=</span> <span class="p">{}</span>
+<span class="ne">--&gt; </span><span class="mi">866</span> <span class="k">with</span> <span class="n">_open_file_or_url</span><span class="p">(</span><span class="n">fname</span><span class="p">)</span> <span class="k">as</span> <span class="n">fd</span><span class="p">:</span>
+<span class="g g-Whitespace">    </span><span class="mi">867</span>     <span class="k">try</span><span class="p">:</span>
+
+<span class="nn">File ~/anaconda3/lib/python3.11/contextlib.py:137,</span> in <span class="ni">_GeneratorContextManager.__enter__</span><span class="nt">(self)</span>
+<span class="g g-Whitespace">    </span><span class="mi">136</span> <span class="k">try</span><span class="p">:</span>
+<span class="ne">--&gt; </span><span class="mi">137</span>     <span class="k">return</span> <span class="nb">next</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">gen</span><span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">138</span> <span class="k">except</span> <span class="ne">StopIteration</span><span class="p">:</span>
+
+<span class="nn">File ~/anaconda3/lib/python3.11/site-packages/matplotlib/__init__.py:843,</span> in <span class="ni">_open_file_or_url</span><span class="nt">(fname)</span>
+<span class="g g-Whitespace">    </span><span class="mi">842</span> <span class="n">fname</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">expanduser</span><span class="p">(</span><span class="n">fname</span><span class="p">)</span>
+<span class="ne">--&gt; </span><span class="mi">843</span> <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">fname</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s1">&#39;utf-8&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+<span class="g g-Whitespace">    </span><span class="mi">844</span>     <span class="k">yield</span> <span class="n">f</span>
+
+<span class="ne">FileNotFoundError</span>: [Errno 2] No such file or directory: &#39;seaborn&#39;
+
+<span class="n">The</span> <span class="n">above</span> <span class="n">exception</span> <span class="n">was</span> <span class="n">the</span> <span class="n">direct</span> <span class="n">cause</span> <span class="n">of</span> <span class="n">the</span> <span class="n">following</span> <span class="n">exception</span><span class="p">:</span>
+
+<span class="ne">OSError</span><span class="g g-Whitespace">                                   </span>Traceback (most recent call last)
+<span class="n">Cell</span> <span class="n">In</span><span class="p">[</span><span class="mi">7</span><span class="p">],</span> <span class="n">line</span> <span class="mi">17</span>
+<span class="g g-Whitespace">     </span><span class="mi">14</span>     <span class="k">return</span> <span class="mi">2</span><span class="o">*</span><span class="p">(</span><span class="n">x</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span><span class="o">*</span><span class="p">(</span><span class="n">x</span><span class="o">**</span><span class="mi">2</span><span class="o">+</span><span class="mi">4</span><span class="o">*</span><span class="n">x</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span><span class="o">/</span><span class="p">(</span><span class="n">x</span><span class="o">**</span><span class="mi">2</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span><span class="o">**</span><span class="mi">3</span>
+<span class="g g-Whitespace">     </span><span class="mi">16</span> <span class="n">X</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="o">-</span><span class="mi">2</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">400</span><span class="p">)</span>
+<span class="ne">---&gt; </span><span class="mi">17</span> <span class="n">plt</span><span class="o">.</span><span class="n">style</span><span class="o">.</span><span class="n">use</span><span class="p">(</span><span class="s2">&quot;seaborn&quot;</span><span class="p">)</span>
+<span class="g g-Whitespace">     </span><span class="mi">18</span> <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">20</span><span class="p">,</span> <span class="mi">8</span><span class="p">))</span>
+<span class="g g-Whitespace">     </span><span class="mi">19</span> <span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">f</span><span class="p">(</span><span class="n">X</span><span class="p">),</span> <span class="n">label</span><span class="o">=</span><span class="sa">r</span><span class="s2">&quot;$f$&quot;</span><span class="p">)</span>
+
+<span class="nn">File ~/anaconda3/lib/python3.11/site-packages/matplotlib/style/core.py:139,</span> in <span class="ni">use</span><span class="nt">(style)</span>
+<span class="g g-Whitespace">    </span><span class="mi">137</span>         <span class="n">style</span> <span class="o">=</span> <span class="n">_rc_params_in_file</span><span class="p">(</span><span class="n">style</span><span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">138</span>     <span class="k">except</span> <span class="ne">OSError</span> <span class="k">as</span> <span class="n">err</span><span class="p">:</span>
+<span class="ne">--&gt; </span><span class="mi">139</span>         <span class="k">raise</span> <span class="ne">OSError</span><span class="p">(</span>
+<span class="g g-Whitespace">    </span><span class="mi">140</span>             <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">style</span><span class="si">!r}</span><span class="s2"> is not a valid package style, path of style &quot;</span>
+<span class="g g-Whitespace">    </span><span class="mi">141</span>             <span class="sa">f</span><span class="s2">&quot;file, URL of style file, or library style name (library &quot;</span>
+<span class="g g-Whitespace">    </span><span class="mi">142</span>             <span class="sa">f</span><span class="s2">&quot;styles are listed in `style.available`)&quot;</span><span class="p">)</span> <span class="kn">from</span> <span class="nn">err</span>
+<span class="g g-Whitespace">    </span><span class="mi">143</span> <span class="n">filtered</span> <span class="o">=</span> <span class="p">{}</span>
+<span class="nn">    144 for k</span> in <span class="ni">style:  # don&#39;t trigger RcParams.__getitem__</span><span class="nt">(&#39;backend&#39;)</span>
+
+<span class="ne">OSError</span>: &#39;seaborn&#39; is not a valid package style, path of style file, URL of style file, or library style name (library styles are listed in `style.available`)
 </pre></div>
 </div>
-<img alt="../_images/522c4bb83e872f30bbfe74eeec36f0344a5628d207f97f1f5b184481053bbda2.png" src="../_images/522c4bb83e872f30bbfe74eeec36f0344a5628d207f97f1f5b184481053bbda2.png" />
 </div>
 </div>
 </section>
@@ -761,11 +835,7 @@ f(x) =
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>/var/folders/yd/1b8d3z5979dfd108n9fvzv6c0000gn/T/ipykernel_12308/93322045.py:7: MatplotlibDeprecationWarning: The seaborn styles shipped by Matplotlib are deprecated since 3.6, as they no longer correspond to the styles shipped by seaborn. However, they will remain available as &#39;seaborn-v0_8-&lt;style&gt;&#39;. Alternatively, directly use the seaborn API instead.
-  plt.style.use(&quot;seaborn&quot;)
-</pre></div>
-</div>
-<script type="application/vnd.jupyter.widget-view+json">{"version_major": 2, "version_minor": 0, "model_id": "18a86d4d592444fc8ce00ba360f5ece7"}</script></div>
+<script type="application/vnd.jupyter.widget-view+json">{"model_id": "3e13f161ed4849b4bb4d666199a94421", "version_major": 2, "version_minor": 0}</script></div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -878,7 +948,7 @@ Vi sier at et punkt <span class="math notranslate nohighlight">\(r\in D_f\)</spa
 </div>
 </div>
 <div class="cell_output docutils container">
-<script type="application/vnd.jupyter.widget-view+json">{"version_major": 2, "version_minor": 0, "model_id": "b99f8f4adcd449e888636a5f86f1a432"}</script></div>
+<script type="application/vnd.jupyter.widget-view+json">{"model_id": "7955b7e3f9944a3cb46333b3f1854f66", "version_major": 2, "version_minor": 0}</script></div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -892,7 +962,7 @@ Vi sier at et punkt <span class="math notranslate nohighlight">\(r\in D_f\)</spa
 </div>
 </div>
 <div class="cell_output docutils container">
-<script type="application/vnd.jupyter.widget-view+json">{"version_major": 2, "version_minor": 0, "model_id": "e6b0d7a22c4b4786bf2da002a0870e40"}</script></div>
+<script type="application/vnd.jupyter.widget-view+json">{"model_id": "024a3bcbd90841ed9693019b357ada18", "version_major": 2, "version_minor": 0}</script></div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -909,7 +979,7 @@ Vi sier at et punkt <span class="math notranslate nohighlight">\(r\in D_f\)</spa
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>0.7390850786891229
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>0.739085078689123
 </pre></div>
 </div>
 </div>
@@ -957,7 +1027,7 @@ Vi sier at et punkt <span class="math notranslate nohighlight">\(r\in D_f\)</spa
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>0.02262214542300581
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>-0.004490294179099859
 </pre></div>
 </div>
 </div>
@@ -1034,7 +1104,7 @@ Vi sier at et punkt <span class="math notranslate nohighlight">\(r\in D_f\)</spa
 </div>
 </div>
 <div class="cell_output docutils container">
-<script type="application/vnd.jupyter.widget-view+json">{"version_major": 2, "version_minor": 0, "model_id": "06773996c22f4a80a9d2613ffbb2106e"}</script></div>
+<script type="application/vnd.jupyter.widget-view+json">{"model_id": "99335563e4654641b73b00c347626fb4", "version_major": 2, "version_minor": 0}</script></div>
 </div>
 <h4 style="font-weight:bold;">Halveringsmetoden</h4> 
 Vi ønsker å finne et nullpunkt til en funksjon $f$ i intervallet $[a , b]$.&nbsp;</p><p><b>Input:</b> Funksjonen \(f\), tallene \(a\), \(b\) og antall ganger vi skal halvere \(n\)&nbsp;</p><p><b>Gjenta</b>&nbsp;\(n\) ganger:<br>&nbsp; &nbsp; \( m = \dfrac{a+b}{2} \)&nbsp;<br>&nbsp; &nbsp; <b>Hvis</b> \(f(a)\) og \(f(m)\) har ulikt fortegn, lar vi \(b=m\)<br>&nbsp; &nbsp; <b>Ellers</b> lar vi \( a = m \)</p><p>Da er \( \dfrac{a+b}{2} \) en god tilnærming for et nullpunkt til \(f\) i \( [a , b] \)</p><section id="oppgave-6">
@@ -1108,7 +1178,7 @@ Vi ønsker å finne et nullpunkt til en funksjon $f$ i intervallet $[a , b]$.&nb
 </div>
 </div>
 <div class="cell_output docutils container">
-<script type="application/vnd.jupyter.widget-view+json">{"version_major": 2, "version_minor": 0, "model_id": "477d3a6e6cb642bf8509edf8792b2620"}</script></div>
+<script type="application/vnd.jupyter.widget-view+json">{"model_id": "320d20da31d6412e9d43a6cb1e4db36c", "version_major": 2, "version_minor": 0}</script></div>
 </div>
 <blockquote>
 <div><p><strong>Newtons metode</strong><br />
@@ -1132,7 +1202,7 @@ Vi lar <span class="math notranslate nohighlight">\(x_0 = \)</span> en startverd
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="../_images/ff430dc76eaf5dc213ce77f1f343b3f81b7bd1bf98e54d7c7e1381cdbd1a0dd2.png" src="../_images/ff430dc76eaf5dc213ce77f1f343b3f81b7bd1bf98e54d7c7e1381cdbd1a0dd2.png" />
+<img alt="../_images/0f4f6d87598ced80256c7cdb4f1b4c3dc382d9cf30a6231042c6c9bbfce86c38.png" src="../_images/0f4f6d87598ced80256c7cdb4f1b4c3dc382d9cf30a6231042c6c9bbfce86c38.png" />
 </div>
 </div>
 <div class="cell docutils container">
@@ -1223,7 +1293,7 @@ Vi lar <span class="math notranslate nohighlight">\(x_0 = \)</span> en startverd
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="../_images/8a52d7b378dc17af8a567e760e92ad9cbbd15203a83313cde5ce7b60e84e77ec.png" src="../_images/8a52d7b378dc17af8a567e760e92ad9cbbd15203a83313cde5ce7b60e84e77ec.png" />
+<img alt="../_images/3b9ecad68760a4e2280cd350b32807bbb5dc2e191641b83f057ece74fac3c14a.png" src="../_images/3b9ecad68760a4e2280cd350b32807bbb5dc2e191641b83f057ece74fac3c14a.png" />
 </div>
 </div>
 <div class="cell docutils container">
@@ -1273,7 +1343,6 @@ Vi lar <span class="math notranslate nohighlight">\(x_0 = \)</span> en startverd
             src="https://www.geogebra.org/m/vhuav56s"
             frameborder="0"
             allowfullscreen
-            
         ></iframe>
         </div></div>
 </div>
@@ -1332,7 +1401,7 @@ Vi lar <span class="math notranslate nohighlight">\(x_0 = \)</span> en startverd
 </div>
 </div>
 <div class="cell_output docutils container">
-<script type="application/vnd.jupyter.widget-view+json">{"version_major": 2, "version_minor": 0, "model_id": "2f56c1ef6d2c4cc4922be0a58da1640c"}</script></div>
+<script type="application/vnd.jupyter.widget-view+json">{"model_id": "f51deea91773485da20b4d71202d4122", "version_major": 2, "version_minor": 0}</script></div>
 </div>
 <section id="eksempel">
 <h2>Eksempel<a class="headerlink" href="#eksempel" title="Permalink to this heading">#</a></h2>
@@ -1489,7 +1558,7 @@ Vi lar <span class="math notranslate nohighlight">\(x_0 = \)</span> en startverd
 </div>
 </div>
 <div class="cell_output docutils container">
-<script type="application/vnd.jupyter.widget-view+json">{"version_major": 2, "version_minor": 0, "model_id": "ccf0079838884624b7033acd78c2ad4e"}</script></div>
+<script type="application/vnd.jupyter.widget-view+json">{"model_id": "46a55372977547e1a4fd39496d845921", "version_major": 2, "version_minor": 0}</script></div>
 </div>
 <section id="analytisk-svar">
 <h2>Analytisk svar:<a class="headerlink" href="#analytisk-svar" title="Permalink to this heading">#</a></h2>
@@ -1621,7 +1690,7 @@ Vi lar <span class="math notranslate nohighlight">\(x_0 = \)</span> en startverd
 </div>
 </div>
 <div class="cell_output docutils container">
-<script type="application/vnd.jupyter.widget-view+json">{"version_major": 2, "version_minor": 0, "model_id": "02057c9bb2704df599b78f93dff8852d"}</script></div>
+<script type="application/vnd.jupyter.widget-view+json">{"model_id": "b2a87d0f49b44e6ba7ce058d49c68e48", "version_major": 2, "version_minor": 0}</script></div>
 </div>
 <p>Vi ønsker først å finne et funksjonsuttrykk <span class="math notranslate nohighlight">\(g(x)\)</span> for parabelen. Deretter vil
 vi regne ut arealet under denne grafen med vanlig analytisk metode.</p>
@@ -1791,28 +1860,9 @@ summere opp følgende verdier:
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
-<span class="ne">ValueError</span><span class="g g-Whitespace">                                </span>Traceback (most recent call last)
-<span class="n">Cell</span> <span class="n">In</span><span class="p">[</span><span class="mi">48</span><span class="p">],</span> <span class="n">line</span> <span class="mi">3</span>
-<span class="g g-Whitespace">      </span><span class="mi">1</span> <span class="kn">from</span> <span class="nn">IPython.display</span> <span class="kn">import</span> <span class="n">Video</span>
-<span class="ne">----&gt; </span><span class="mi">3</span> <span class="n">Video</span><span class="p">(</span><span class="s2">&quot;coding-chatt.mp4&quot;</span><span class="p">,</span> <span class="n">width</span><span class="o">=</span><span class="mi">600</span><span class="p">)</span>
-
-<span class="nn">File ~/anaconda3/lib/python3.11/site-packages/IPython/core/display.py:1162,</span> in <span class="ni">Video.__init__</span><span class="nt">(self, data, url, filename, embed, mimetype, width, height, html_attributes)</span>
-<span class="g g-Whitespace">   </span><span class="mi">1156</span> <span class="k">if</span> <span class="n">data</span> <span class="ow">and</span> <span class="ow">not</span> <span class="n">embed</span><span class="p">:</span>
-<span class="g g-Whitespace">   </span><span class="mi">1157</span>     <span class="n">msg</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">([</span>
-<span class="g g-Whitespace">   </span><span class="mi">1158</span>         <span class="s2">&quot;To embed videos, you must pass embed=True &quot;</span><span class="p">,</span>
-<span class="g g-Whitespace">   </span><span class="mi">1159</span>         <span class="s2">&quot;(this may make your notebook files huge)</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">,</span>
-<span class="g g-Whitespace">   </span><span class="mi">1160</span>         <span class="s2">&quot;Consider passing Video(url=&#39;...&#39;)&quot;</span><span class="p">,</span>
-<span class="g g-Whitespace">   </span><span class="mi">1161</span>     <span class="p">])</span>
-<span class="ne">-&gt; </span><span class="mi">1162</span>     <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="n">msg</span><span class="p">)</span>
-<span class="g g-Whitespace">   </span><span class="mi">1164</span> <span class="bp">self</span><span class="o">.</span><span class="n">mimetype</span> <span class="o">=</span> <span class="n">mimetype</span>
-<span class="g g-Whitespace">   </span><span class="mi">1165</span> <span class="bp">self</span><span class="o">.</span><span class="n">embed</span> <span class="o">=</span> <span class="n">embed</span>
-
-<span class="ne">ValueError</span>: To embed videos, you must pass embed=True (this may make your notebook files huge)
-<span class="n">Consider</span> <span class="n">passing</span> <span class="n">Video</span><span class="p">(</span><span class="n">url</span><span class="o">=</span><span class="s1">&#39;...&#39;</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
+<div class="output text_html"><video src="coding-chatt.mp4" controls  width="600" >
+      Your browser does not support the <code>video</code> element.
+    </video></div></div>
 </div>
 </section>
 </section>
@@ -1821,7 +1871,7 @@ summere opp følgende verdier:
     {
         requestKernel: true,
         binderOptions: {
-            repo: "binder-examples/jupyter-stacks-datascience",
+            repo: "executablebooks/jupyter-book",
             ref: "master",
         },
         codeMirrorConfig: {
