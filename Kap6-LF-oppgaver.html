@@ -63,6 +63,8 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="_static/sphinx-thebe.js"></script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'Kap6-LF-oppgaver';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Søk" href="search.html" />
@@ -375,7 +377,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
 </div></div>
       
     </div>
@@ -391,6 +395,17 @@ document.write(`
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#oppgave-6-2">Oppgave 6.2</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#oppgave-6-3">Oppgave 6.3</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#oppgave-6-4-b">Oppgave 6.4 b)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#oppgave-6-5">Oppgave 6.5</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -402,6 +417,111 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="losningsforslag-til-kapittel-6">
 <h1>Løsningsforslag til kapittel 6<a class="headerlink" href="#losningsforslag-til-kapittel-6" title="Permalink to this heading">#</a></h1>
+<section id="oppgave-6-2">
+<h2>Oppgave 6.2<a class="headerlink" href="#oppgave-6-2" title="Permalink to this heading">#</a></h2>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="mi">1</span>  <span class="c1"># startverdien til x</span>
+
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">20</span><span class="p">):</span>
+    <span class="n">x</span> <span class="o">=</span> <span class="p">(</span><span class="mi">2</span><span class="o">+</span><span class="n">x</span><span class="p">)</span><span class="o">/</span><span class="p">(</span><span class="mi">1</span><span class="o">+</span><span class="n">x</span><span class="p">)</span> <span class="c1"># regn ut neste verdi av x</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="c1"># skriv ut x</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>1.5
+1.4
+1.4166666666666667
+1.4137931034482758
+1.4142857142857144
+1.4142011834319526
+1.4142156862745099
+1.4142131979695431
+1.4142136248948696
+1.4142135516460548
+1.4142135642135643
+1.4142135620573204
+1.4142135624272734
+1.4142135623637995
+1.4142135623746899
+1.4142135623728214
+1.414213562373142
+1.414213562373087
+1.4142135623730965
+1.4142135623730947
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="oppgave-6-3">
+<h2>Oppgave 6.3<a class="headerlink" href="#oppgave-6-3" title="Permalink to this heading">#</a></h2>
+<p>Her er <span class="math notranslate nohighlight">\(f(x)= \dfrac{x+N}{1+x}\)</span>.</p>
+<ol class="arabic simple">
+<li><p>Jeg vet at <span class="math notranslate nohighlight">\(f\)</span> er en strengt avtagende funksjon og <span class="math notranslate nohighlight">\(f(x)&gt;0\)</span> for alle <span class="math notranslate nohighlight">\(x&gt;-1\)</span>. Funksjonen vil <span class="math notranslate nohighlight">\(f(x)\in I=[N, 0]\)</span> for alle <span class="math notranslate nohighlight">\(x\in I\)</span>. Videre er</p></li>
+<li><p><span class="math notranslate nohighlight">\( f'(x) = \dfrac{1-N}{(1+x)^2} &gt; 0\)</span> og <span class="math notranslate nohighlight">\(\mid f'(x)\mid \leq \dfrac{1}{(1+x)^2} \leq 1\)</span> for alle <span class="math notranslate nohighlight">\(x&gt;-1\)</span> og spesielt for alle <span class="math notranslate nohighlight">\(x\in I\)</span>.</p></li>
+</ol>
+<p>Altså er begge kriterine i fikspunktteoremet oppfylt og det finnes et fikpunkt som følgen <span class="math notranslate nohighlight">\(x_{n+1}=f(x_n)\)</span> konvergerer mot.</p>
+</section>
+<section id="oppgave-6-4-b">
+<h2>Oppgave 6.4 b)<a class="headerlink" href="#oppgave-6-4-b" title="Permalink to this heading">#</a></h2>
+<p>Her kan vi bruke at <span class="math notranslate nohighlight">\(\sqrt{402}=\sqrt{400 \cdot 1.004} = 20 \sqrt{1.004}\)</span>. Det går mye raskere å regne ut <span class="math notranslate nohighlight">\(\sqrt{1.004}\)</span> enn <span class="math notranslate nohighlight">\(\sqrt{402}\)</span>:</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="mi">1</span>  <span class="c1"># startverdien til x</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">):</span>
+    <span class="n">x</span> <span class="o">=</span> <span class="p">(</span><span class="n">x</span><span class="o">+</span><span class="mf">1.005</span><span class="p">)</span><span class="o">/</span><span class="p">(</span><span class="mi">1</span><span class="o">+</span><span class="n">x</span><span class="p">)</span> <span class="c1"># regn ut neste verdi av x</span>
+    <span class="nb">print</span><span class="p">(</span><span class="mi">20</span><span class="o">*</span><span class="n">x</span><span class="p">)</span> <span class="c1"># skriv ut x</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>20.049999999999997
+20.049937578027468
+20.049937655860347
+20.0499376557633
+20.049937655763422
+20.049937655763422
+20.049937655763422
+20.049937655763422
+20.049937655763422
+20.049937655763422
+</pre></div>
+</div>
+</div>
+</div>
+<p>Hadde vi brukt <span class="math notranslate nohighlight">\(N=402\)</span> i algoritmen ville vi fått en hastighet på</p>
+<p><span class="math notranslate nohighlight">\(k = \frac{\sqrt{402}+1}{\sqrt{402}-1} \approx 1.105\)</span></p>
+<p>Dersom vi bruker <span class="math notranslate nohighlight">\(N=1.005\)</span> får vi en hastighet på</p>
+<p><span class="math notranslate nohighlight">\(k = \frac{\sqrt{1.005}+1}{\sqrt{1.005}-1} \approx 802.0\)</span></p>
+<p>Altså er den siste algoritmen over 700 ganger raskere enn om vi ikke hadde faktorisert ut 400.</p>
+</section>
+<section id="oppgave-6-5">
+<h2>Oppgave 6.5<a class="headerlink" href="#oppgave-6-5" title="Permalink to this heading">#</a></h2>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="mi">20</span>  <span class="c1"># startverdien til x</span>
+
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">7</span><span class="p">):</span>
+    <span class="n">x</span> <span class="o">=</span> <span class="p">(</span><span class="mi">1222</span><span class="o">/</span><span class="n">x</span><span class="o">+</span><span class="n">x</span><span class="p">)</span><span class="o">/</span><span class="mi">2</span> <span class="c1"># regn ut neste verdi av x</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="c1"># skriv ut x</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>40.55
+35.342817509247844
+34.95922118893607
+34.95711664924737
+34.95711658589707
+34.95711658589707
+34.95711658589707
+</pre></div>
+</div>
+</div>
+</div>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -458,6 +578,23 @@ document.write(`
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#oppgave-6-2">Oppgave 6.2</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#oppgave-6-3">Oppgave 6.3</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#oppgave-6-4-b">Oppgave 6.4 b)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#oppgave-6-5">Oppgave 6.5</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>
